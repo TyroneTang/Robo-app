@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+
+.topbox {
+  height: 47vh;
+  background-color: rgba(214, 214, 214, 0.89);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.midbox {
+  height: 8vh;
+  background-color: rgba(240, 238, 238, 0.973);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.bottombox {
+  height: 45vh;
+  position: relative;
+  background-color: rgba(248, 182, 1, 0.986);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#robot {
+  font-weight: bold;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  animation-timing-function: linear;
+}
+
+
+#pin_1_parent {
+  position: absolute;
+  margin-left: 0px;
+}
+
+
+#pin_1_dot {
+  background-color: rgba(230, 19, 19, 0.712);
+  border: 3px solid rgba(146, 11, 11, 0.747);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 0px;
+  margin-top: 3px;
+}
+
+#pin_1_desc {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#pin_2_parent {
+  position: absolute;
+  margin-left: 0px;
+}
+
+
+#pin_2_dot {
+  background-color: rgba(29, 102, 211, 0.747);
+  border: 3px solid rgba(11, 66, 150, 0.795);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  font-size: 15px;
+  padding: 0px;
+  margin-top: 3px;
+}
+
+#pin_2_desc {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+#start_pin_parent {
+  position: absolute;
+  margin-left: 0px;
+  /* border: solid 1px black; */
+}
+
+
+#start_pin_dot {
+  background-color: rgba(100, 187, 18, 0.753);
+  border: 3px solid rgba(70, 141, 4, 0.801);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 0px;
+  margin-top: 3px;
+}
+
+#start_pin_desc {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+ 
+}
+
+.row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* .column {
+  
+} */
